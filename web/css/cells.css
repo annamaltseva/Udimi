@@ -1,0 +1,60 @@
+html, body, .wrap, .wrap > .container{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    width: 100%;
+    min-height: 0px;
+}
+
+.wrap{
+    clear: both;
+    overflow: scroll;
+    width: 100%;
+    height: calc( 100% - 60px );
+}
+
+#update{
+    float: right;
+    margin-right: 25px;
+}
+
+.footer{
+    padding-top: 15px;
+}
+
+.cellsRow{
+    display: flex;
+}
+
+.cell{
+    background-color: silver;
+}
+
+.cell > input{
+    width: 50px;
+    margin: 1px;
+}
+
+#message{
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #bbb;
+    position: absolute;
+    background-color: #fff;
+    right: 140px;
+    font-size: 18px;
+    margin-top: -2px;
+    padding: 5px;
+    display: none;
+}
+
+#message span.success{
+    color: #3e8f3e;
+    display: none;
+}
+
+#message span.error{
+    color: #953b39;
+    display: none;
+}
